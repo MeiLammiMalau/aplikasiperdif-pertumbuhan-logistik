@@ -596,11 +596,13 @@ with tab2: # Konten untuk Tab "Hasil Model & Prediksi"
         st.info("Catatan: Prediksi ini sedikit di atas daya tampung (K), hal ini wajar karena model logistik adalah aproksimasi.")
 
 
+st.write("---") # Garis pemisah untuk estetika
 st.markdown(
     """
-    <div style='text-align: center; font-size: 18px; font-weight: bold; color: #333;'>
-        <span style='color: #007BFF;'>@Mei Lammi Malau</span><br>
-        Aplikasi Persamaan Diferensial
+    <div style="text-align: center; font-size: 0.8em; color: #808080;">
+        &copy; Mei Lammi Malau - 2025
+        <br>
+        Dibuat sebagai proyek Persamaan Diferensial.
     </div>
     """,
     unsafe_allow_html=True
